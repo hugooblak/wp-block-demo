@@ -19,8 +19,8 @@
 <!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Page heading goes here</h1>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"var:preset|font-size|large"}}} -->
-<p style="font-size:var(--wp--preset--font-size--large)">One or two sentences that tell visitors what this page helps them do.</p>
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">One or two sentences that tell visitors what this page helps them do.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

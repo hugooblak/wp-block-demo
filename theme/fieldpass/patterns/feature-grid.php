@@ -26,8 +26,8 @@ $fieldpass_rows = array_chunk( $fieldpass_features, 3 );
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Everything a school event needs</h2>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"var:preset|font-size|large"},"color":{"text":"var:preset|color|muted"}}} -->
-<p class="has-text-color" style="color:var(--wp--preset--color--muted);font-size:var(--wp--preset--font-size--large)">From the first home game to graduation, one system handles sales, entry and reporting.</p>
+<!-- wp:paragraph {"fontSize":"large","style":{"color":{"text":"var:preset|color|muted"}}} -->
+<p class="has-text-color has-large-font-size" style="color:var(--wp--preset--color--muted)">From the first home game to graduation, one system handles sales, entry and reporting.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

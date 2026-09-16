@@ -16,19 +16,19 @@
 <!-- wp:column {"width":"40%"} -->
 <div class="wp-block-column" style="flex-basis:40%">
 <!-- wp:site-title {"level":0} /-->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"var:preset|font-size|small"}}} -->
-<p style="font-size:var(--wp--preset--font-size--small)">Digital ticketing for school events. Sell online, scan at the gate, see every sale in one place.</p>
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Digital ticketing for school events. Sell online, scan at the gate, see every sale in one place.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column">
-<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"var:preset|font-size|medium"}}} -->
-<h2 class="wp-block-heading" style="font-size:var(--wp--preset--font-size--medium)">Schools</h2>
+<!-- wp:heading {"level":2,"fontSize":"medium"} -->
+<h2 class="wp-block-heading has-medium-font-size">Schools</h2>
 <!-- /wp:heading -->
-<!-- wp:list {"className":"is-style-default","style":{"spacing":{"padding":{"left":"0"}},"typography":{"fontSize":"var:preset|font-size|small"}}} -->
-<ul style="padding-left:0;font-size:var(--wp--preset--font-size--small)" class="wp-block-list is-style-default">
+<!-- wp:list {"className":"is-style-default","fontSize":"small","style":{"spacing":{"padding":{"left":"0"}}}} -->
+<ul style="padding-left:0" class="wp-block-list is-style-default has-small-font-size">
 <!-- wp:list-item --><li><a href="<?php echo esc_url( home_url( '/for-schools/' ) ); ?>">How Fieldpass works</a></li><!-- /wp:list-item -->
 <!-- wp:list-item --><li><a href="<?php echo esc_url( home_url( '/request-a-demo/' ) ); ?>">Request a demo</a></li><!-- /wp:list-item -->
 </ul>
@@ -38,11 +38,11 @@
 
 <!-- wp:column -->
 <div class="wp-block-column">
-<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"var:preset|font-size|medium"}}} -->
-<h2 class="wp-block-heading" style="font-size:var(--wp--preset--font-size--medium)">Parents and fans</h2>
+<!-- wp:heading {"level":2,"fontSize":"medium"} -->
+<h2 class="wp-block-heading has-medium-font-size">Parents and fans</h2>
 <!-- /wp:heading -->
-<!-- wp:list {"className":"is-style-default","style":{"spacing":{"padding":{"left":"0"}},"typography":{"fontSize":"var:preset|font-size|small"}}} -->
-<ul style="padding-left:0;font-size:var(--wp--preset--font-size--small)" class="wp-block-list is-style-default">
+<!-- wp:list {"className":"is-style-default","fontSize":"small","style":{"spacing":{"padding":{"left":"0"}}}} -->
+<ul style="padding-left:0" class="wp-block-list is-style-default has-small-font-size">
 <!-- wp:list-item --><li><a href="<?php echo esc_url( home_url( '/help-centre/' ) ); ?>">Help Centre</a></li><!-- /wp:list-item -->
 <!-- wp:list-item --><li><a href="<?php echo esc_url( home_url( '/help-centre/#faqs' ) ); ?>">FAQs</a></li><!-- /wp:list-item -->
 <!-- wp:list-item --><li><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Contact support</a></li><!-- /wp:list-item -->
@@ -53,11 +53,11 @@
 
 <!-- wp:column -->
 <div class="wp-block-column">
-<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"var:preset|font-size|medium"}}} -->
-<h2 class="wp-block-heading" style="font-size:var(--wp--preset--font-size--medium)">Company</h2>
+<!-- wp:heading {"level":2,"fontSize":"medium"} -->
+<h2 class="wp-block-heading has-medium-font-size">Company</h2>
 <!-- /wp:heading -->
-<!-- wp:list {"className":"is-style-default","style":{"spacing":{"padding":{"left":"0"}},"typography":{"fontSize":"var:preset|font-size|small"}}} -->
-<ul style="padding-left:0;font-size:var(--wp--preset--font-size--small)" class="wp-block-list is-style-default">
+<!-- wp:list {"className":"is-style-default","fontSize":"small","style":{"spacing":{"padding":{"left":"0"}}}} -->
+<ul style="padding-left:0" class="wp-block-list is-style-default has-small-font-size">
 <!-- wp:list-item --><li><a href="<?php echo esc_url( home_url( '/blog/' ) ); ?>">Blog</a></li><!-- /wp:list-item -->
 <!-- wp:list-item --><li><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Contact</a></li><!-- /wp:list-item -->
 </ul>
@@ -71,8 +71,8 @@
 <hr class="wp-block-separator has-text-color has-ink-2-color has-alpha-channel-opacity has-ink-2-background-color has-background" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--30)"/>
 <!-- /wp:separator -->
 
-<!-- wp:group {"style":{"typography":{"fontSize":"var:preset|font-size|small"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group" style="font-size:var(--wp--preset--font-size--small)">
+<!-- wp:group {"fontSize":"small","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group has-small-font-size">
 <!-- wp:paragraph -->
 <p>© <?php echo esc_html( gmdate( 'Y' ) ); ?> Fieldpass</p>
 <!-- /wp:paragraph -->

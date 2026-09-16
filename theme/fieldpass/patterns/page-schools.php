@@ -20,8 +20,8 @@
 <!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Ticketing that works for every school event</h1>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"var:preset|font-size|large"}}} -->
-<p style="font-size:var(--wp--preset--font-size--large)">Sell tickets and passes online, check people in at the gate with any phone, and give your business office clean reports. No cash boxes, no paper tickets.</p>
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">Sell tickets and passes online, check people in at the gate with any phone, and give your business office clean reports. No cash boxes, no paper tickets.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40)">

@@ -1,0 +1,34 @@
+{
+  "name": "Fieldpass",
+  "slug": "fieldpass",
+  "prefix": "fp",
+  "github_user": "hugooblak",
+  "github_repo": "wp-block-demo",
+  "playground_url": "https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/hugooblak/wp-block-demo/main/blueprint.json",
+  "platform": "wordpress",
+  "industry": "Education / events / SaaS",
+  "site_type": "Marketing site with sales path + customer help centre",
+  "features": [
+    "two visitor paths",
+    "request-a-demo form",
+    "contact form",
+    "FAQ library (admin-managed, ordered, by topic)",
+    "blog + articles",
+    "reusable block patterns",
+    "WCAG 2.2 AA tested"
+  ],
+  "upwork_job_id": "2100155673228400705",
+  "pages": [
+    "/",
+    "/for-schools/",
+    "/help-centre/",
+    "/request-a-demo/",
+    "/contact/",
+    "/blog/",
+    "/how-to-find-your-tickets/",
+    "/nope/"
+  ],
+  "plugins_from_wporg": [
+    "contact-form-7"
+  ]
+}

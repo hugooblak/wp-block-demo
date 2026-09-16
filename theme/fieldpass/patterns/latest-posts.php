@@ -28,7 +28,7 @@
 <!-- wp:group {"className":"is-style-card","style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group is-style-card" style="min-height:100%">
 <!-- wp:post-terms {"term":"category"} /-->
-<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"fontSize":"var:preset|font-size|x-large"}}} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"x-large"} /-->
 <!-- wp:post-excerpt {"excerptLength":20,"style":{"color":{"text":"var:preset|color|muted"}}} /-->
 </div>
 <!-- /wp:group -->

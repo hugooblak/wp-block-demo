@@ -27,8 +27,8 @@
 <!-- wp:paragraph {"className":"is-eyebrow","style":{"color":{"text":"var:preset|color|primary"}}} -->
 <p class="is-eyebrow has-text-color" style="color:var(--wp--preset--color--primary)">For schools and districts</p>
 <!-- /wp:paragraph -->
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"var:preset|font-size|x-large"}}} -->
-<h3 class="wp-block-heading" style="font-size:var(--wp--preset--font-size--x-large)">Run ticketing for every event from one account</h3>
+<!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size">Run ticketing for every event from one account</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Football, theatre, graduation, fundraisers. Set up an event in minutes, follow sales as they happen and get paid out every week.</p>
@@ -55,8 +55,8 @@
 <!-- wp:paragraph {"className":"is-eyebrow","style":{"color":{"text":"var:preset|color|primary"}}} -->
 <p class="is-eyebrow has-text-color" style="color:var(--wp--preset--color--primary)">For parents and fans</p>
 <!-- /wp:paragraph -->
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"var:preset|font-size|x-large"}}} -->
-<h3 class="wp-block-heading" style="font-size:var(--wp--preset--font-size--x-large)">Get help with tickets you bought</h3>
+<!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size">Get help with tickets you bought</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Find your tickets, see how entry works at the gate, and get answers about refunds.</p>

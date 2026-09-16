@@ -16,8 +16,8 @@
 <!-- wp:heading {"textAlign":"center"} -->
 <h2 class="wp-block-heading has-text-align-center">See Fieldpass with your own events</h2>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"var:preset|font-size|large"}}} -->
-<p class="has-text-align-center" style="font-size:var(--wp--preset--font-size--large)">Book a 30-minute demo. We'll walk through setup, checkout and gate scanning using an event from your calendar.</p>
+<!-- wp:paragraph {"align":"center","fontSize":"large"} -->
+<p class="has-text-align-center has-large-font-size">Book a 30-minute demo. We'll walk through setup, checkout and gate scanning using an event from your calendar.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons">

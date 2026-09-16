@@ -21,8 +21,8 @@
 <!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Sell tickets to school events without the cash box</h1>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"var:preset|font-size|large"}}} -->
-<p style="font-size:var(--wp--preset--font-size--large)">Fieldpass lets schools sell tickets online, scan them at the gate and see every sale in one place. Families buy in a minute on their phone.</p>
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">Fieldpass lets schools sell tickets online, scan them at the gate and see every sale in one place. Families buy in a minute on their phone.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40)">

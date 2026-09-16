@@ -20,8 +20,8 @@
 <!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">How can we help?</h1>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"var:preset|font-size|large"}}} -->
-<p style="font-size:var(--wp--preset--font-size--large)">Answers for parents, students and fans who buy tickets to school events with Fieldpass.</p>
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">Answers for parents, students and fans who buy tickets to school events with Fieldpass.</p>
 <!-- /wp:paragraph -->
 
 </div>

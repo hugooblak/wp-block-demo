@@ -397,7 +397,7 @@ fp_setup_page(
 	'request-a-demo',
 	'Request a demo',
 	fp_p( 'Tell us a little about your school. We\'ll reply within one school day to book a 30-minute call.' )
-		. "<!-- wp:heading {\"style\":{\"typography\":{\"fontSize\":\"var:preset|font-size|large\"}}} -->\n<h2 class=\"wp-block-heading\" style=\"font-size:var(--wp--preset--font-size--large)\">What happens next</h2>\n<!-- /wp:heading -->\n\n"
+		. "<!-- wp:heading {\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-large-font-size\">What happens next</h2>\n<!-- /wp:heading -->\n\n"
 		. fp_ol(
 			array(
 				'We email you to pick a time.',
@@ -461,6 +461,8 @@ update_option( 'show_on_front', 'page' );
 update_option( 'page_on_front', $fp_home );
 update_option( 'page_for_posts', $fp_blog );
 
-$wp_rewrite->flush_rules();
+// Clear the saved link rules. WordPress rebuilds them on the next page load,
+// with every post type and category registered (flushing here would miss categories).
+delete_option( 'rewrite_rules' );
 
 fp_setup_log( 'Done.' );

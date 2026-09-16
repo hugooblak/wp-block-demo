@@ -18,8 +18,8 @@
 <div class="wp-block-column">
 <!-- wp:group {"className":"is-style-card","layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group is-style-card">
-<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"var:preset|font-size|x-large"}}} -->
-<h2 class="wp-block-heading" style="font-size:var(--wp--preset--font-size--x-large)">Need help with your tickets?</h2>
+<!-- wp:heading {"level":2,"fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-x-large-font-size">Need help with your tickets?</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Guides, answers to common questions and ways to reach support.</p>
@@ -40,8 +40,8 @@
 <div class="wp-block-column">
 <!-- wp:group {"className":"is-style-card","layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group is-style-card">
-<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"var:preset|font-size|x-large"}}} -->
-<h2 class="wp-block-heading" style="font-size:var(--wp--preset--font-size--x-large)">Run events at a school?</h2>
+<!-- wp:heading {"level":2,"fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-x-large-font-size">Run events at a school?</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>See how Fieldpass handles ticket sales, gate entry and reporting.</p>
