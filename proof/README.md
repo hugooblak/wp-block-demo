@@ -20,6 +20,8 @@ Full reports: [`lighthouse/`](lighthouse/) (open the HTML files in a browser).
 
 **Homepage weight:** 194 KB uncompressed, about 81 KB with gzip. Of that, 46 KB is the font file.
 
+These numbers were measured before the images in this repo got their embedded content-credentials (C2PA) tags, which add about 8 KB per image. Expect the homepage to be roughly 30 KB heavier uncompressed.
+
 ## Accessibility
 
 - **axe-core scan**, WCAG 2.0/2.1/2.2 A and AA rules plus best practices. 8 pages (Home, For schools, Help Centre, Request a demo, Contact, Blog, an article, 404) at 1440px and 390px wide: **0 violations**. Raw results: [`axe-results.json`](axe-results.json).

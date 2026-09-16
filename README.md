@@ -68,7 +68,7 @@ No page is built from Custom HTML blocks. Every section is made of normal blocks
 ## How it stays lightweight
 
 - **One font file** (Schibsted Grotesk, 46 KB), stored on the site and preloaded. No calls to Google Fonts.
-- **No photos.** The illustrations are small SVG files (about 3 KB in total).
+- **No photos.** The illustrations are four small SVG files. The drawings themselves are about 3 KB; each file also carries an embedded content-credentials tag (C2PA) of about 8 KB.
 - **Only two scripts on most pages**, both from WordPress core, for the mobile menu. No sliders, no animation libraries, no jQuery on the front end.
 - **FAQs open and close with plain HTML** (`<details>`), with no JavaScript.
 - **Form scripts only load on form pages.**
