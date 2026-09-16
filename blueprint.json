@@ -1,0 +1,39 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Fieldpass: lightweight WordPress block theme demo",
+		"description": "Block theme, FAQ library plugin and demo content for a fictional school ticketing brand.",
+		"author": "hugooblak",
+		"categories": [ "Themes" ]
+	},
+	"landingPage": "/",
+	"preferredVersions": { "php": "8.3", "wp": "latest" },
+	"features": { "networking": true },
+	"login": true,
+	"steps": [
+		{
+			"step": "installTheme",
+			"themeData": { "resource": "git:directory", "url": "https://github.com/hugooblak/wp-block-demo", "ref": "main", "refType": "branch", "path": "theme/fieldpass" },
+			"options": { "activate": true }
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": { "resource": "git:directory", "url": "https://github.com/hugooblak/wp-block-demo", "ref": "main", "refType": "branch", "path": "plugins/fieldpass-faq" },
+			"options": { "activate": true }
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": { "resource": "wordpress.org/plugins", "slug": "contact-form-7" },
+			"options": { "activate": true }
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/fieldpass-setup.php",
+			"data": { "resource": "url", "url": "https://raw.githubusercontent.com/hugooblak/wp-block-demo/main/content/setup.php" }
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require '/wordpress/wp-load.php'; require '/wordpress/wp-content/fieldpass-setup.php';"
+		}
+	]
+}
